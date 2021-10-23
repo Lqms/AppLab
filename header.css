@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+    background-image: url(images/header_background.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .header--logo a img{
+    vertical-align: middle;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    z-index: 1024;
+    
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+}
+
+header nav ul{
+    display:flex;
+    margin-left: 300px;
+}
+
+header nav ul li a{
+    padding: 0 17px;
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 700;
+    transition: all 0.3s;
+    color: #242f51;
+    font-weight: 500;
+}
+
+header nav ul li a:hover{
+    color: #2563ff;
+}
+
+header .try{
+    border-radius: 35px;
+    background: #2563ff;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 170px;
+    height: 50px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid transparent;
+    justify-content: center;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+header .try:hover{
+    background-color: #fff;
+    color: #2563ff;
+    border: #2563ff 2px solid;
+    cursor: pointer;
+}
+
+
+.header--content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--text{
+    align-self: center;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.header--text h4{
+    color: #242f51;
+    background-color: #e2eaed;
+    border-radius: 25px;
+    width: 60%;
+    padding: 8px;
+    text-align: center;
+    background-image: url(images/home_icon.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header--text h1{
+    font-size:70px;
+    line-height: 1.2;
+    color: #242f51;
+}
+
+.header--text p{
+    font-size: 24px;
+}
+
+.header--text .buttons a{
+    margin-left: 30px;
+    color: #2563ff;
+  
+}

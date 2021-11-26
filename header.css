@@ -17,20 +17,21 @@ header .header--logo a img{
 
 header nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     position: fixed;
     top: 0;
     z-index: 1024;
     
     height: 70px;
+    width: 100%;
     line-height: 70px;
     background-color: #fff;
 }
 
 header nav ul{
     display:flex;
-    margin-left: 300px;
+ 
 }
 
 header nav ul li a{
@@ -47,28 +48,7 @@ header nav ul li a:hover{
     color: #2563ff;
 }
 
-header .try{
-    border-radius: 35px;
-    background: #2563ff;
-    font-size: 16px;
-    font-weight: 700;
-    min-width: 170px;
-    height: 50px;
-    color: #fff;
-    display: inline-flex;
-    align-items: center;
-    border: 2px solid transparent;
-    justify-content: center;
-    margin-top: 10px;
-    transition: all 0.3s;
-}
 
-header .try:hover{
-    background-color: #fff;
-    color: #2563ff;
-    border: #2563ff 2px solid;
-    cursor: pointer;
-}
 
 
 .header--content{

@@ -1,0 +1,40 @@
+.ult_features .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ult_features {
+    background-image: url(images/ultimate_feature_img.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.ult_features--text{
+    width: 30%;
+}
+
+.ult_features--text > *{
+    margin-bottom: 4vh;
+}
+
+.ult_features--cards{
+    width: 60%;   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ult_features--card{
+    width: 44%;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+}
+
+.ult_features--card > *{
+    margin-bottom: 1vh;
+}
+
+.ult_features--card h3{
+    color: #242f51;
+}
+

@@ -1,0 +1,47 @@
+.smartjact .content{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+
+    margin: 0 auto;
+}
+
+.smartjact--text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.smartjact--text .main_text h2{
+    max-width: 384px;
+}
+
+.smartjact--text .sub_text p{
+    padding-left: 45px;
+    padding-top: 20px;
+    height: 140px;
+    max-width: 450px;
+}
+
+.smartjact--text .sub_text{
+    border-left: 1px solid gray;
+}
+
+
+.smartjact--cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smartjact--card{
+    max-width: 33%;
+}
+
+.smartjact--card img{
+    margin-bottom: 10px;
+}
+
+.smartjact--card p{
+    max-width: 250px;
+    margin-top: 10px;
+}

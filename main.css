@@ -13,6 +13,13 @@ body {
     font-size: 16px;
 }
 
+h2{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+}
+
 ul{
     list-style: none;
 }
@@ -20,4 +27,82 @@ ul{
 a{
     color: #242f51;
     text-decoration: none;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+/*
+div{
+    border: 0.5px solid red;
+}
+*/
+
+.red{
+    color: #f55767;
+}
+
+.blue{
+    color: #2563ff;
+}
+
+.green{
+    color: #40975f;
+}
+
+#red,#blue,#green{
+    padding:20px;
+    border-radius: 50px;
+}
+
+#red{
+    background-color: #f5576725;
+}
+
+#blue{
+    background-color: #2563ff27;
+}
+
+#green{
+    background-color: #40975e2f;
+}
+
+.try, .try_button{
+    border-radius: 35px;
+    background: #2563ff;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 170px;
+    height: 50px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid transparent;
+    justify-content: center;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.try:hover{
+    background-color: #fff;
+    color: #2563ff;
+    border: #2563ff 2px solid;
+    cursor: pointer;
+}
+
+.try_button_not_active{
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 170px;
+    height: 50px;
+    color: #242f51;
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid transparent;
+    justify-content: center;
+    margin-top: 10px;
+    transition: all 0.3s;
 }

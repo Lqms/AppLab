@@ -1,0 +1,24 @@
+.download{
+    background-image: url(images/download_img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 5vh;
+}
+
+.download .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.download--text{
+    width: 48%;
+}
+
+.download--text > *{
+    margin-top: 5vh;
+}
+
+.download--images >* {
+   margin-right: 2vw;
+}

@@ -1,0 +1,14 @@
+.designed .content{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.designed--text{
+    margin: auto;
+    max-width: 30%;
+} 
+
+.designed--text h2{
+    margin-bottom: 5vh;
+}

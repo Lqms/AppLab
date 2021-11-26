@@ -1,0 +1,31 @@
+.screenshots .content{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.screenshots--text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 49%;
+}
+
+.screenshots--text h2{
+    margin: 5vh 0;
+}
+
+.screenshots--text p{
+    margin-bottom: 10vh;
+}
+
+.screenshots--gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.screenshots--slider{
+    text-align: center;
+}

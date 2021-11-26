@@ -1,0 +1,41 @@
+.why .content{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.why--text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 49%;
+}
+
+.why--text h2{
+    margin: 5vh 0;
+}
+
+.why--cards{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.why--card{
+    width: 33%;
+    margin-bottom: 5vh;
+
+}
+.why--card h3{
+    margin: 2vh 0;
+    color: #242f51;
+}
+
+.why--card p{
+    max-width: 250px;
+    margin: 0 auto;
+}

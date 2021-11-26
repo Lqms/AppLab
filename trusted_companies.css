@@ -1,0 +1,13 @@
+.trusted_companies p{
+    font-size: 18px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.trusted_companies .slider{
+    width: 950px;
+    margin:0 auto;
+    background-image: url(images/trusted_companies.png);
+    height: 120px;
+    transition: all 0.5s;
+}

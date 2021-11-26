@@ -1,0 +1,29 @@
+.clients{
+
+    background-image: url(images/meet_client.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.clients .content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clients--content{
+    width: 38%;
+}
+
+.clients--text h2{
+    margin-bottom: 5vh;
+}
+
+.clients--content > *{
+    margin-top: 5vh;
+}
+.clients--reviews > * {
+    margin-top: 5vh;
+}
